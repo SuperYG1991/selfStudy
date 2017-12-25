@@ -1,9 +1,16 @@
 package com.github.yao;
 
-public class{
+import java.util.Random;
+
+public class  HelloGit{
 	public static void main(String[] args){
 		String a = "hello world";	
-		System.out.println("hello git"+a);
-		
+		Random r = new Random();
+		int num = r.nextInt(10);
+		if(num==1){
+			System.out.println(a+"恭喜您中奖了");
+		}else{
+			System.out.println("谢谢参与，继续加油");
+		}		
 	} 
 }
