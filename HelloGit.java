@@ -10,6 +10,7 @@ public class  HelloGit{
 		if(num==1){
 			System.out.println(a+"恭喜您中奖了");
 		}else{
+			System.out.println("抽中的数字为：" + num);
 			System.out.println("谢谢参与，继续加油");
 		}		
 	} 
